@@ -1,1 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BEC | Sabor que te hace bien</title>
 
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fdf8;
+color:#333;
+}
+
+header{
+background:linear-gradient(90deg,#7CB342,#F28C28,#7A1E6C);
+color:white;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:38px;
+}
+
+header nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+background:white;
+}
+
+.hero-text{
+width:50%;
+}
+
+.hero-text h2{
+font-size:55px;
+color:#7A1E6C;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:20px;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+.hero-text button{
+background:#7CB342;
+color:white;
+padding:15px 35px;
+border:none;
+border-radius:40px;
+font-size:18px;
+cursor:pointer;
+transition:.3s;
+}
+
+.hero-text button:hover{
+background:#5e9927;
+}
+
+.hero img{
+width:420px;
+}
+
+section{
+padding:70px;
+}
+
+h2{
+text-align:center;
+font-size:40px;
+color:#7A1E6C;
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+width:320px;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0px 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#F28C28;
+margin-bottom:15px;
+}
+
+.producto{
+display:flex;
+justify-content:space-around;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.producto img{
+width:320px;
+}
+
+.lista li{
+margin-bottom:12px;
+font-size:18px;
+}
+
+.contacto{
+background:#7CB342;
+color:white;
+text-align:center;
+padding:60px;
+}
+
+.contacto h2{
+color:white;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>BEC</h1>
+
+<nav>
+
+<a href="#nosotros">Nosotros</a>
+
+<a href="#producto">Producto</a>
+
+<a href="#beneficios">Beneficios</a>
+
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>Sabor que te hace bien</h2>
+
+<p>
+
+BEC es un snack saludable elaborado con avena, yogur griego,
+chía y fruta natural, diseñado para estudiantes universitarios
+que buscan una alimentación práctica y nutritiva.
+
+</p>
+
+<button>Conoce más</button>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=700" alt="Snack saludable">
+
+</section>
+
+<section id="nosotros">
+
+<h2>¿Quiénes somos?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Misión</h3>
+
+<p>
+
+Ofrecer snacks saludables que promuevan mejores hábitos alimenticios
+en estudiantes universitarios mediante ingredientes naturales y una
+presentación práctica.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Visión</h3>
+
+<p>
+
+Ser una marca reconocida en Ecuador por ofrecer snacks saludables,
+innovadores y accesibles para jóvenes universitarios.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Valores</h3>
+
+<p>
+
+Salud, innovación, compromiso, calidad,
+responsabilidad y bienestar.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="producto">
+
+<h2>Nuestro Producto</h2>
+
+<div class="producto">
+
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700">
+
+<div>
+
+<h3 style="font-size:35px;color:#F28C28;margin-bottom:20px;">
+BEC Snack Saludable
+</h3>
+
+<ul class="lista">
+
+<li>✔ Elaborado con avena.</li>
+
+<li>✔ Yogur griego.</li>
+
+<li>✔ Chía.</li>
+
+<li>✔ Fruta natural.</li>
+
+<li>✔ Aporta energía.</li>
+
+<li>✔ Favorece la saciedad.</li>
+
+<li>✔ Fácil de transportar.</li>
+
+<li>✔ Listo para consumir.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="beneficios">
+
+<h2>¿Por qué elegir BEC?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🌿 Natural</h3>
+
+<p>
+
+Ingredientes frescos y naturales.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚡ Energía</h3>
+
+<p>
+
+Ideal para estudiar o trabajar.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>❤️ Saludable</h3>
+
+<p>
+
+Favorece hábitos alimenticios saludables.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎒 Práctico</h3>
+
+<p>
+
+Llévalo contigo a cualquier lugar.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contacto" id="contacto">
+
+<h2>Contáctanos</h2>
+
+<br>
+
+<p>
+
+📍 Loja - Ecuador
+
+</p>
+
+<br>
+
+<p>
+
+📱 WhatsApp: +593 99 999 9999
+
+</p>
+
+<br>
+
+<p>
+
+📧 becsnack@gmail.com
+
+</p>
+
+<br>
+
+<p>
+
+Instagram | Facebook | TikTok
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 BEC | Sabor que te hace bien
+
+</footer>
+
+</body>
+
+</html>
